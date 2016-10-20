@@ -1,0 +1,8 @@
+*.log
+rpmbuild/SPECS/*
+rpmbuild/BUILD/*
+rpmbuild/BUILDROOT/*
+rpmbuild/RPMS/*
+rpmbuild/SRPMS/*
+rpmbuild/SOURCES/*
+!.gitkeep
