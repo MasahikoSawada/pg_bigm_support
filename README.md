@@ -1,13 +1,13 @@
 # pg_bigm_support
 
 ## Set up
+
 1. Download pg_bigm_support repository
 ```
 $ git clone git@github.com:MasahikoSawada/pg_bigm_support.git
 $ cd pg_bigm_support
 ```
-
-1. Put source tarball at rpmbuild/SOURCES
+2. Put source tarball at rpmbuild/SOURCES
 ```
 /* Note that need to rename tarball in pg_bigm case. */
 $ tar zxf pg_bigm-1.2-20161011.tar.gz
@@ -16,8 +16,7 @@ $ tar zcf pg_bigm-1.2.20161011.tar.gz pg_bigm-1.2.20161011
 /* Put source tarball */ 
 $ mv pg_bigm-1.2-20161011.tar.gz rpmbuild/SOURCES/
 ```
-
-1. Put postgresql rpm file if needed.
+3. Put postgresql rpm file if needed.
 This repository has latest version (at Oct 2016) rpm files of PostgresSQL 9.1 to 9.6.
 Put following postgresql rpm files to `rpmtest` directory if needed.
   - postgresqlXX-X.X.XX
